@@ -20,4 +20,9 @@ describe("String Calculator", () => {
     expect(add("4\n5\n\n6")).toBe(15);
     expect(add("\n4\n5,6\n\n7")).toBe(22);
   });
+
+  it("should handle custom delimiters between numbers", () => {
+    expect(add("//;\n1;2")).toBe(3); 
+    expect(add("//:\n3:4:\n5:4")).toBe(16);
+  });
 });
