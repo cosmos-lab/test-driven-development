@@ -1,0 +1,31 @@
+{
+  "name": "test-driven-development",
+  "version": "1.0.0",
+  "description": "TDD demo",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest ./unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmos-lab/test-driven-development.git"
+  },
+  "keywords": [
+    "TDD"
+  ],
+  "author": "PD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosmos-lab/test-driven-development/issues"
+  },
+  "homepage": "https://github.com/cosmos-lab/test-driven-development#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  }
+}
