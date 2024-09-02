@@ -1,7 +1,7 @@
 {
   "name": "test-driven-development",
   "version": "1.0.0",
-  "description": "TDD demo",
+  "description": "Apply the test-driven development approach to solve a problem based on the following specification.",
   "main": "main.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,10 @@
     "url": "git+https://github.com/cosmos-lab/test-driven-development.git"
   },
   "keywords": [
-    "TDD"
+    "TDD",
+    "javascript",
+    "nodejs",
+    "jest"
   ],
   "author": "PD",
   "license": "MIT",

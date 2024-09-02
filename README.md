@@ -10,7 +10,7 @@ Apply the test-driven development approach to solve a problem based on the follo
 
 ## Description
 
-The add method processes a string of numbers separated by delimiters and returns their sum.
+The `add` method processes a string of numbers separated by delimiters and returns their sum.
 
 ## Examples
 
@@ -35,3 +35,16 @@ The add method processes a string of numbers separated by delimiters and returns
     - If there are multiple negative numbers, include all of them in the exception message, separated by commas. For example, for the input `"1,-2,3,-4"`, the exception message should be `"Negative numbers are not allowed: -2, -4"`.
 
 
+
+# Try it
+Use the following command to clone this repository, install the required packages, and run the tests.
+```
+$ git clone git@github.com:cosmos-lab/test-driven-development.git
+
+$ npm install
+
+$ npm test
+```
+
+
+Enjoy coding!
